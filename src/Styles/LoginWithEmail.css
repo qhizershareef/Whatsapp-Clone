@@ -1,0 +1,26 @@
+.LoginEmail{
+    
+    display: grid;
+    place-items:center ;
+    height:100vh;
+    width:100vw;
+    background-color: ghostwhite;
+}
+.container{
+    height:400px;
+    width:200px;
+    display: grid;
+    place-items: center;
+}
+
+.input {
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    background-color: lightgreen;
+    margin-bottom:10px;
+    outline-style: none;
+}
+.sub{
+    margin-left: 30px;
+}

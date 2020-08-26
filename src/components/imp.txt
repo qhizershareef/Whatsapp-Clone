@@ -1,0 +1,6 @@
+Whatsapp clone
+the tech stack used:
+react,
+firebase-firestore,
+firease-auth,
+material-ui, icons,

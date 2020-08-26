@@ -1,0 +1,100 @@
+
+.Sidebar{
+    display: flex;
+    flex:0.35;
+    flex-direction: column;
+    /* text-align: center;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center; */
+}
+.siderbar_header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    border-right: 1px solid lightgray;
+}
+
+.sidebar_headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.siderbar_search{
+    display: flex;
+    align-items: center;
+    background-color:#f6f6f6;
+    height: 39px;
+    padding:10px;
+}
+
+.sidebar_searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sidebar_searchContainer > input{
+    border:none;
+    padding:10px;
+    color:gray;
+    
+}
+
+.sidebar_searchContainer > .icon{
+    margin-left: 20px;
+}
+
+.sidebar_chats{
+    flex:1;
+    overflow-y: scroll;
+    overflow-block: hidden;
+    background-color: #f6f6f6;
+}
+
+.sidebar_chats > h2{
+    margin-left: 16px;
+}
+
+a{
+    text-decoration: none !important;
+    color:black;
+}
+
+.HeaderInfo{
+    display: flex;  
+    align-items: center;
+}
+.HeaderInfo > h3{
+    display: flex;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.chatArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:10px;
+    cursor:pointer;
+    border-bottom : 1px solid #dad6d6;
+}
+
+.chatArea:hover{
+    background-color:#ebebeb;
+}
+
+.chatArea > .icon{
+    display: flex;
+    margin-left: 10px;
+}
+
+.chatArea > .chat_info{
+    margin-left:18px;
+}

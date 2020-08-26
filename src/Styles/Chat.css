@@ -1,0 +1,106 @@
+.chat{
+    flex:0.65;/* since we already mentioned flex 0.35 in earlier sidebar.css the rest is 0.65*/ 
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+}
+
+.chat_header{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chat_headerInfo {
+    flex:1;
+    padding-left: 20px;
+}
+
+.chat_headerInfo > strong{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat_headerInfo > p {
+    color:gray;
+}
+.chat_headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat_body{
+    flex:1;
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),url('https://web.whatsapp.com/img/bg-chat-tile-light_9e8a2898faedb7db9bf5638405cf81ae.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #e6dca6;
+    padding:30px;
+    overflow-y: auto;
+}
+
+.chat_body > .chat_message{
+    position: relative;
+    font-size:15px;
+    justify-content: flex-end;
+    background-color:white;
+    width: fit-content;
+    border-radius: 0 25px 25px 25px;
+    padding:8px;
+    text-align:center;
+    margin:15px;
+    height:auto;
+}
+
+.chat_body > .chat_Receiver {
+    margin-left: auto;
+    border-radius: 25px 0px 25px 25px;
+    background-color:#DFF8C7;
+}
+
+.chat_message > .chat_name{
+    position:absolute;
+    top:-15px;
+    font-weight: 800;
+    margin-top:2px;
+    font-size: xx-small;
+}
+
+.chat_message > .chat_timeStamp{
+    margin-left: 10px;
+    font-size:xx-small;
+}
+
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    border-top: 1px solid lightgray;
+}
+.chat_footer > form{
+    flex:1;
+    display:flex;
+}
+
+.chat_footer > form > input{
+    flex:1;
+    display:flex;
+    border-radius: 30px;
+    padding:10px;
+    border:none;
+    border-style: none;
+    outline: none;
+    margin-left:15px;
+}
+.chat_footer > form > button{
+    display:none;
+}
+.chat_footer > .MuiSvgIcon-root{
+    padding:10px;
+    color:gray;
+}
+.MuiSvgIcon-root:hover {
+    color:rgb(89, 177, 89);
+}
